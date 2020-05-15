@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/fpc" Date="1507031793"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/home/herux/Documents/ktpgate/src/lib/x86_64-linux -Fu/home/herux/Documents/lazarus/lcl/units/x86_64-linux/gtk2 -Fu/home/herux/Documents/lazarus/lcl/units/x86_64-linux -Fu/home/herux/Documents/lazarus/components/lazutils/lib/x86_64-linux -Fu/home/herux/Documents/lazarus/packager/units/x86_64-linux -Fu/home/herux/Documents/ktpgate/src/ -FU/home/herux/Documents/ktpgate/src/lib/x86_64-linux/ -FE/home/herux/Documents/ktpgate/src/ -o/home/herux/Documents/ktpgate/src/ktpgate -dLCL -dLCLgtk2 ktpgate.lpr"/>
+</CONFIG>

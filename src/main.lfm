@@ -1,0 +1,80 @@
+object frmMain: TfrmMain
+  Left = 472
+  Height = 455
+  Top = 260
+  Width = 763
+  Caption = 'KTP Gate'
+  ClientHeight = 455
+  ClientWidth = 763
+  OnCreate = FormCreate
+  LCLVersion = '2.1.0.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 64
+    Top = 0
+    Width = 763
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 64
+    ClientWidth = 763
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Height = 20
+      Top = 32
+      Width = 447
+      Caption = 'RW 04: Simprug DiPoris, Poris Gaga Baru, Batu Ceper, Kota Tangerang'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 8
+      Height = 29
+      Top = 6
+      Width = 104
+      Caption = 'KTP Gate'
+      Font.Height = -21
+      Font.Name = 'Tlwg Typist'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblTanggal: TLabel
+      Left = 680
+      Height = 20
+      Top = 6
+      Width = 58
+      Anchors = [akTop, akRight]
+      Caption = 'Tanggal: '
+      ParentColor = False
+    end
+  end
+  object StringGrid1: TStringGrid
+    Left = 0
+    Height = 391
+    Top = 64
+    Width = 763
+    Align = alClient
+    AutoEdit = False
+    BorderStyle = bsNone
+    Columns = <    
+      item
+        Title.Caption = 'UUID'
+        Width = 264
+      end    
+      item
+        Title.Caption = 'Nama'
+        Width = 200
+      end    
+      item
+        Title.Caption = 'Jam Masuk'
+        Width = 100
+      end    
+      item
+        Title.Caption = 'Jam Keluar'
+        Width = 100
+      end>
+    Flat = True
+    RowCount = 2
+    TabOrder = 1
+  end
+end
